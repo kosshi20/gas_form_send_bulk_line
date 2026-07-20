@@ -1,0 +1,16 @@
+# ドキュメント
+000_CONFIG.js
+
+# GAS関連のファイル
+.clasp.json
+
+# Node.jsの開発環境ファイル
+node_modules/
+package-lock.json
+
+# OS固有の一時ファイル
+.DS_Store
+Thumbs.db
+
+# VS Codeの設定フォルダ
+.vscode/
