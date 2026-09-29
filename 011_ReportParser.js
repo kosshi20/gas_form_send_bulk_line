@@ -72,8 +72,8 @@ const ReportParser = {
       // 表のタイトルが何番目にあるか取得
       const index = headers.indexOf(value);
 
+      // 該当のタイトルがあれば、そのタイトルが何列目かをオブジェクトにする
       if (index !== -1) {
-        // 該当のタイトルがあれば、そのタイトルが何列目かをオブジェクトにする
         map[key] = index;
       }
     }

@@ -77,7 +77,9 @@ const ReportNotifier = {
           const messages = [];
 
           for (const text of config.texts) {
-            if (!text) break;
+            if (!text) {
+              break;
+            }
 
             // メッセージの引数分、メッセージのタイプと返信メッセージを入れる
             messages.push({ "type": "text", "text": text });
